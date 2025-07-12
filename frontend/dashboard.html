@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 p-8">
+
+  <div class="flex justify-between items-center mb-6">
+    <h1 class="text-3xl font-bold">Usuários</h1>
+    <button onclick="logout()" class="bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700">Sair</button>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4" id="usersContainer">
+    <!-- Cards de usuários aqui -->
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    loadUsers()
+  </script>
+</body>
+
+</html>

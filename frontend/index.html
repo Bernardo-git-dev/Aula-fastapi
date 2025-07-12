@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+  <div class="bg-white p-10 rounded shadow-md w-full max-w-sm">
+    <h2 class="text-2xl font-bold mb-6 text-center">Login</h2>
+    <input id="email" type="email" placeholder="Email" class="mb-4 w-full px-4 py-2 border rounded" />
+    <input id="senha" type="password" placeholder="Senha" class="mb-4 w-full px-4 py-2 border rounded" />
+    <button onclick="login()" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Entrar</button>
+    <p class="mt-4 text-center text-sm text-gray-600">Não tem conta? <a href="register.html"
+        class="text-blue-600">Cadastre-se</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

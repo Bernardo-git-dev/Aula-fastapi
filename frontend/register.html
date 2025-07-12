@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+  <div class="bg-white p-10 rounded shadow-md w-full max-w-sm">
+    <h2 class="text-2xl font-bold mb-6 text-center">Cadastro</h2>
+    <input id="name" type="text" placeholder="Nome" class="mb-4 w-full px-4 py-2 border rounded" />
+    <input id="email" type="email" placeholder="Email" class="mb-4 w-full px-4 py-2 border rounded" />
+    <input id="idade" type="number" placeholder="Idade" class="mb-4 w-full px-4 py-2 border rounded" />
+    <input id="senha" type="password" placeholder="Senha" class="mb-4 w-full px-4 py-2 border rounded" />
+    <button onclick="register()" class="w-full bg-green-600 text-white py-2 rounded hover:bg-green-700">Registrar</button>
+    <p class="mt-4 text-center text-sm text-gray-600">Já tem conta? <a href="index.html" class="text-blue-600">Entrar</a></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
